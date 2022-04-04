@@ -20,3 +20,8 @@ Server for registering a user
   ```bash
   npm run start:dev
   ```
+- Postman
+
+  ```bash
+  https://www.getpostman.com/collections/1b2c0d2aa3bdf9e8c964
+  ```
