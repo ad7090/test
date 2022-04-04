@@ -1,0 +1,9 @@
+import { IsEmail, IsNotEmpty, Length } from 'class-validator';
+
+export class PasswordDto {
+  @IsNotEmpty({ message: 'Please provide your old password' })
+  oldPassword: string;
+  @IsNotEmpty({ message: 'Please provide a password' })
+  @Length(8, 20, { message: 'Password must be between 8 and 20 character' })
+  password: string;
+}
